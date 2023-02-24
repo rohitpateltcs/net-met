@@ -4,6 +4,6 @@
 
 @layer components {
   .menuIconSt {
-    @apply h-6 cursor-pointer hover:text-[#ff0000];
+    @apply h-8 cursor-pointer hover:text-[#ff0000] font-medium hover:scale-125;
   }
 }
