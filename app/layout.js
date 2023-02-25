@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import HeaderUpSection from "@/components/HeaderUpSection";
 import "./globals.css";
 
 export const metadata = {
@@ -10,8 +11,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div>
+        <div className="px-3">
           {/* Header */}
+          <HeaderUpSection />
           <Header />
         </div>
         <div>
