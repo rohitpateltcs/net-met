@@ -17,15 +17,13 @@ export default function RootLayout({ children }) {
           <HeaderUpSection />
           <Header />
         </div>
-        <div className="flex sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto">
-          <div className="hidden sm:flex xl:w-1/6 sm:w-1/3 md:w-1/4 lg:1/5">
+        <div className="flex  sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-7xl mx-auto">
+          <div className="hidden lg:flex  border-r h-screen w-60">
             {/* sidebar */}
             <Sidebar />
           </div>
-          <div>
-            {/* mainpage */}
-            {children}
-          </div>
+          <div className="w-full">{children}</div>
+
           <div>{/* suggestion */}</div>
         </div>
       </body>

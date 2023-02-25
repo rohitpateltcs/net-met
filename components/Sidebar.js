@@ -11,7 +11,7 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className="px-4 flex flex-col space-y-6 overflow-hidden fixed border-r-[2px] h-screen">
+    <div className="px-4 flex flex-col space-y-6 overflow-hidden fixed">
       <div className="menuiconmainDiv">
         <Link href="/" className="menuIconstyleforSidebar">
           <HomeIcon className="menuIconSidebarFont" />
