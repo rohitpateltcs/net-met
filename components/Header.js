@@ -18,7 +18,7 @@ const Header = () => {
           alt=""
           width={100}
           height={100}
-          className="animate-bounce w-auto h-auto"
+          className="animate-bounce"
         />
       </div>
       <div className="flex space-x-5 items-center overflow-x-scroll  scrollbar-thin scrollbar-track-red-200">
