@@ -1,7 +1,20 @@
 import CardItems from "@/components/CardItems";
-import React from "react";
 
-const HomePage = () => {
+//https://my-json-server.typicode.com/dmitrijt9/book-api-mock/books
+
+const getProjectBuild = async () => {
+  const res = await fetch(
+    `https://my-json-server.typicode.com/dmitrijt9/book-api-mock/books`
+  );
+
+  const books = await res.json();
+  console.log(books);
+  return books;
+};
+
+const HomePage = async () => {
+  const data = await getProjectBuild();
+
   return (
     <div className="">
       <div className="bg-red-500 ">
@@ -12,17 +25,11 @@ const HomePage = () => {
         />
       </div>
       <div>
-        <h1>Top Courses</h1>
+        <h1>Project Build</h1>
         <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          <CardItems />
-          <CardItems />
-          <CardItems />
-          <CardItems />
-          <CardItems />
-          <CardItems />
-          <CardItems />
-          <CardItems />
-          <CardItems />
+          {data.map((project) => (
+            <CardItems id={project.id} img={project.cover_image} />
+          ))}
         </div>
       </div>
     </div>
