@@ -23,7 +23,7 @@ const Header = () => {
       </div>
       <div className="flex space-x-5 items-center overflow-x-scroll  scrollbar-thin justify-between w-full">
         {/* HomeIcon */}
-        <div className="">
+        <div className="activeMenu">
           <Link href="/">
             <HomeIcon className="menuIconSt" />
             <p className="menuNameStyle">Home</p>

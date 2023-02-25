@@ -7,6 +7,9 @@
     @apply h-6 cursor-pointer hover:text-[#ff0000] font-medium hover:scale-125 text-gray-600;
   }
   .menuNameStyle {
-    @apply text-xs cursor-pointer;
+    @apply text-[10px] cursor-pointer pt-1 text-gray-500;
+  }
+  .activeMenu {
+    @apply border-b-[4px] pt-2 border-red-500;
   }
 }
