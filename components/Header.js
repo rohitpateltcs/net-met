@@ -21,7 +21,7 @@ const Header = () => {
           className="animate-bounce"
         />
       </div>
-      <div className="flex space-x-5 items-center overflow-x-scroll  scrollbar-thin scrollbar-track-red-200">
+      <div className="flex space-x-5 items-center overflow-x-scroll  scrollbar-thin">
         {/* HomeIcon */}
         <div className="">
           <Link href="/">
