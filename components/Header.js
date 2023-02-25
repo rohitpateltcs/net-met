@@ -26,7 +26,7 @@ const Header = () => {
         <div className="">
           <Link href="/">
             <HomeIcon className="menuIconSt" />
-            <p className="menuNameStyle">Home</p>
+            {/* <p className="menuNameStyle">Home</p> */}
           </Link>
         </div>
 
@@ -34,7 +34,7 @@ const Header = () => {
         <div>
           <Link href="/project">
             <ClipboardIcon className="menuIconSt" />
-            <p className="menuNameStyle">Project</p>
+            {/* <p className="menuNameStyle">Project</p> */}
           </Link>
         </div>
 
@@ -42,7 +42,7 @@ const Header = () => {
         <div>
           <Link href="/sourcecode">
             <CodeBracketIcon className="menuIconSt" />
-            <p className="menuNameStyle">Source Code</p>
+            {/* <p className="menuNameStyle">Source Code</p> */}
           </Link>
         </div>
 
@@ -50,7 +50,7 @@ const Header = () => {
         <div>
           <Link href="/contact">
             <InformationCircleIcon className="menuIconSt" />
-            <p className="menuNameStyle">Contact</p>
+            {/* <p className="menuNameStyle">Contact</p> */}
           </Link>
         </div>
 
@@ -58,7 +58,7 @@ const Header = () => {
         <div>
           <Link href="/article">
             <InformationCircleIcon className="menuIconSt" />
-            <p className="menuNameStyle">Article</p>
+            {/* <p className="menuNameStyle">Article</p> */}
           </Link>
         </div>
 
@@ -66,7 +66,7 @@ const Header = () => {
         <div>
           <Link href="visit">
             <TrophyIcon className="menuIconSt" />
-            <p className="menuNameStyle">Visit</p>
+            {/* <p className="menuNameStyle">Visit</p> */}
           </Link>
         </div>
 
@@ -74,7 +74,7 @@ const Header = () => {
         <div>
           <Link href="about">
             <DeviceTabletIcon className="menuIconSt" />
-            <p className="menuNameStyle">About</p>
+            {/* <p className="menuNameStyle">About</p> */}
           </Link>
         </div>
       </div>
