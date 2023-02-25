@@ -12,4 +12,16 @@
   .activeMenu {
     @apply border-b-[4px] pt-2 border-red-500;
   }
+  .menuIconstyleforSidebar {
+    @apply flex space-x-3;
+  }
+  .MenuNameSidebar {
+    @apply font-medium text-gray-600 hover:text-white;
+  }
+  .menuiconmainDiv {
+    @apply hover:bg-red-500 p-1 rounded-sm;
+  }
+  .menuIconSidebarFont {
+    @apply h-6 text-gray-600 hover:text-white;
+  }
 }

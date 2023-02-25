@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import HeaderUpSection from "@/components/HeaderUpSection";
+import Sidebar from "@/components/Sidebar";
 import "./globals.css";
 
 export const metadata = {
@@ -11,13 +12,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div className="px-3">
+        <div className="px-3 sticky top-0 bg-white">
           {/* Header */}
           <HeaderUpSection />
           <Header />
         </div>
-        <div>
-          <div>{/* sidebar */}</div>
+        <div className="flex sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto">
+          <div className="hidden sm:flex xl:w-1/6 sm:w-1/3 md:w-1/4 lg:1/5">
+            {/* sidebar */}
+            <Sidebar />
+          </div>
           <div>
             {/* mainpage */}
             {children}
