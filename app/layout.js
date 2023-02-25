@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
           <div>{/* sidebar */}</div>
           <div>
             {/* mainpage */}
-            {/* {children} */}
+            {children}
           </div>
           <div>{/* suggestion */}</div>
         </div>
